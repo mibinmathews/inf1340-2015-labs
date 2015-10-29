@@ -59,9 +59,6 @@ def test_data_type():
     """
     try:
         assert days_in_month("$$$")
-        assert days_in_month("fgj")
-        assert days_in_month(1234)
-        assert days_in_month(3+4)
     except ValueError:
         return True
 
